@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="GameObject" format=3]
+
+[ext_resource type="Script" uid="uid://b7syo8ca24lag" path="res://Script/Resources/GameObject.gd" id="1_main"]
+
+[resource]
+script = ExtResource("1_main")
+name = "BRICK"
+level = 2
+raw_material = Dictionary[int, float]({
+1: 20.0,
+2: 10.0
+})
+metadata/_custom_type_script = "uid://b7syo8ca24lag"
