@@ -1,6 +1,5 @@
-extends Node
-
 class_name GameState
+extends Node
 
 enum State{
 	RUN,

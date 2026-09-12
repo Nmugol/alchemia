@@ -17,6 +17,12 @@ config/icon="res://icon.svg"
 [autoload]
 
 GlobalSignals="*uid://xeu0o4n6blkj"
+Equipment="*uid://cijwx6gq8ttwl"
+Player="*uid://dvdthx6h2wg22"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/at-icons/plugin.cfg", "res://addons/gut/plugin.cfg")
 
 [file_customization]
 

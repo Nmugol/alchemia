@@ -1,6 +1,5 @@
-extends Node
-
 class_name GameManager
+extends Node
 
 var state: GameState.State = GameState.State.RUN
 var time_of_day: GameState.TimeOfDay = GameState.TimeOfDay.MORNING

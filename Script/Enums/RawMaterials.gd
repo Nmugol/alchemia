@@ -1,6 +1,5 @@
-extends Node
-
 class_name RawMaterials
+extends Node
 
 enum Materials{
 	FLUID,
