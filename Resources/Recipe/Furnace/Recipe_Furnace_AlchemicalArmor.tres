@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="Recipe" format=3]
+
+[ext_resource type="Script" uid="uid://dpwo224trefk3" path="res://Script/Resources/Recipe.gd" id="1_script"]
+[ext_resource type="Resource" uid="uid://d2q6eng5fp8al" path="res://Resources/Object/AlchemicalArmor.tres" id="2_out"]
+[ext_resource type="Resource" path="res://Resources/Object/Palladium.tres" id="3_cat"]
+
+[resource]
+script = ExtResource("1_script")
+output_game_object = ExtResource("2_out")
+output_game_object_count = 1
+output_raw_materials = Dictionary[int, float]({})
+input_game_objects = Dictionary[Object, int]({})
+input_raw_materials = Dictionary[int, float]({
+5: 50.0,
+10: 20.0
+})
+required_catalyst = ExtResource("3_cat")
+base_success_chance = 0.45
+is_time_based = true
+time_cost = 4.0
+focus_cost = 0.0
+metadata/_custom_type_script = "uid://dpwo224trefk3"

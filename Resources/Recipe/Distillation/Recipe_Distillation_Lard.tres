@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="Recipe" format=3]
+
+[ext_resource type="Script" uid="uid://dpwo224trefk3" path="res://Script/Resources/Recipe.gd" id="1_script"]
+[ext_resource type="Resource" path="res://Resources/Object/Lard.tres" id="2_out"]
+
+[resource]
+script = ExtResource("1_script")
+output_game_object = ExtResource("2_out")
+output_game_object_count = 1
+output_raw_materials = Dictionary[int, float]({})
+input_game_objects = Dictionary[Object, int]({})
+input_raw_materials = Dictionary[int, float]({
+4: 20.0
+})
+required_catalyst = null
+base_success_chance = 0.9
+is_time_based = true
+time_cost = 2.0
+focus_cost = 0.0
+metadata/_custom_type_script = "uid://dpwo224trefk3"

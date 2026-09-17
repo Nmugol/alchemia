@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 GlobalSignals="*uid://xeu0o4n6blkj"
 Equipment="*uid://cijwx6gq8ttwl"
 Player="*uid://dvdthx6h2wg22"
+GameManager="*uid://hl8eeyascdaq"
 
 [editor_plugins]
 

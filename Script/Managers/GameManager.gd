@@ -1,7 +1,10 @@
-class_name GameManager
 extends Node
 
 var state: GameState.State = GameState.State.RUN
+
+const MAX_TIME: int = 24
+var current_time: int = MAX_TIME
+
 var time_of_day: GameState.TimeOfDay = GameState.TimeOfDay.MORNING
 
 func _ready():
