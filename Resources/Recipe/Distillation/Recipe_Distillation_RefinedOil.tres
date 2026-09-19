@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Recipe" format=3]
 
 [ext_resource type="Script" uid="uid://dpwo224trefk3" path="res://Script/Resources/Recipe.gd" id="1_script"]
-[ext_resource type="Resource" path="res://Resources/Object/PureLiquidOil.tres" id="2_out"]
+[ext_resource type="Resource" path="res://Resources/Object/RefinedOil.tres" id="2_out"]
 [ext_resource type="Resource" uid="uid://yqqjstjwaxl" path="res://Resources/Object/Amber.tres" id="3_cat"]
 
 [resource]
@@ -11,7 +11,7 @@ output_game_object_count = 1
 output_raw_materials = Dictionary[int, float]({})
 input_game_objects = Dictionary[Object, int]({})
 input_raw_materials = Dictionary[int, float]({
-4: 20.0
+8: 20.0
 })
 required_catalyst = ExtResource("3_cat")
 base_success_chance = 0.65

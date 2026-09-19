@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="Recipe" format=3]
 
 [ext_resource type="Script" uid="uid://dpwo224trefk3" path="res://Script/Resources/Recipe.gd" id="1_script"]
-[ext_resource type="Resource" path="res://Resources/Object/Diamond.tres" id="2_out"]
+[ext_resource type="Resource" path="res://Resources/Object/PhilosopherStone.tres" id="2_out"]
 [ext_resource type="Resource" path="res://Resources/Object/Diamond.tres" id="3_cat"]
 
 [resource]

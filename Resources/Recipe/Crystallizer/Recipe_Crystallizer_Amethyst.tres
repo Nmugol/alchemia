@@ -3,15 +3,16 @@
 [ext_resource type="Script" uid="uid://dpwo224trefk3" path="res://Script/Resources/Recipe.gd" id="1_script"]
 [ext_resource type="Script" uid="uid://b7syo8ca24lag" path="res://Script/Resources/GameObject.gd" id="1_xbij4"]
 [ext_resource type="Resource" uid="uid://boiegb4t5vuhd" path="res://Resources/Object/Amethyst.tres" id="3_cat"]
+[ext_resource type="Resource" uid="uid://bn01uv5f8ar8" path="res://Resources/Object/NobleAmethyst.tres" id="3_lyve1"]
 
 [resource]
 script = ExtResource("1_script")
 output_game_object = ExtResource("3_cat")
 input_raw_materials = Dictionary[int, float]({
 0: 20.0,
-3: 20.0
+8: 20.0
 })
-required_catalyst = ExtResource("3_cat")
+required_catalyst = ExtResource("3_lyve1")
 base_success_chance = 0.55
 is_time_based = true
 time_cost = 4.0

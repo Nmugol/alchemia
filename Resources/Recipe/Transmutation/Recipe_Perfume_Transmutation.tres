@@ -13,7 +13,7 @@ input_game_objects = Dictionary[Object, int]({})
 input_raw_materials = Dictionary[int, float]({
 0: 15.0,
 3: 20.0,
-4: 15.0
+8: 15.0
 })
 required_catalyst = ExtResource("3_cat")
 base_success_chance = 0.65
