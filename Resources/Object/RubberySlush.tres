@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="GameObject" format=3 uid="uid://kv7xq1pst1gn"]
+
+[ext_resource type="Script" uid="uid://b7syo8ca24lag" path="res://Script/Resources/GameObject.gd" id="1_cp253"]
+
+[resource]
+script = ExtResource("1_cp253")
+name = "Rubbery slush"
+level = 1
+raw_material = Dictionary[int, float]({
+0: 2.0,
+3: 1.0,
+6: 1.0
+})
+metadata/_custom_type_script = "uid://b7syo8ca24lag"

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://ci5gowdpvn2ed"]
+
+[ext_resource type="Script" uid="uid://0k7qk8smolpg" path="res://Script/MaterialProcesing/Procesor.gd" id="1_vcvcx"]
+
+[node name="Procesor" type="Node" unique_id=984166558]
+script = ExtResource("1_vcvcx")
